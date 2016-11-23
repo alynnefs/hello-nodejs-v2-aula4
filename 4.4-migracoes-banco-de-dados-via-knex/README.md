@@ -85,13 +85,13 @@ exports.down = function(knex, Promise) {
 iniciando o banco com tótó:
 
 ```javascript
-// hello-knex-8.js
+// hello-knex-9.js
 const knexfile = require('./knexfile')["development"];
 const knex = require("knex")(knexfile); // olha a macumba..
 
 // queremos um nome para este cachorro
 if(!process.argv[2]){
-  console.log("usage: node hello-knex-8.js <nome>");
+  console.log("usage: node hello-knex-9.js <nome>");
   process.exit(0);
 }
 
